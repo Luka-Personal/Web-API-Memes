@@ -18,8 +18,6 @@ with open('meme.json', 'w') as file:
 # ვბეჭდავთ მიმებს/ლინკებს
 for i in range(0, 10):
     print(memes[i]['name'], memes[i]['url'])
-# გამოიყენეთ json/dict ობიექტთან სამუშაო ფუნქციები და დაბეჭდეთ თქვენთვის საინტერესო ინფორმაცია,
-# რასაც გსურთ რომ API-ს მეშვეობით მიწვდეთ
 
 # ვინაცავთ შექმნილ ინფორმაციას ბაზაში
 with sqlite3.connect('database.db') as con:
